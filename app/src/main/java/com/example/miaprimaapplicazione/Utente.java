@@ -5,9 +5,9 @@ public class Utente {
     private String cognome;
     private String email;
     private String password;
-    private Long dataNascita;
+    private String dataNascita;
 
-    public Utente(String nome, String cognome, String email, String password, Long dataNascita) {
+    public Utente(String nome, String cognome, String email, String password, String dataNascita) {
         this.nome = nome;
         this.cognome = cognome;
         this.email = email;
@@ -23,7 +23,7 @@ public class Utente {
         return cognome;
     }
 
-    public Long getDataNascita() {
+    public String getDataNascita() {
         return dataNascita;
     }
 
